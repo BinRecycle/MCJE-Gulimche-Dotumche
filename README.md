@@ -1,5 +1,6 @@
 # Minecraft Gulimche Dotumche Resource Pack
-<img src="https://github.com/BinRecycle/MCJE-Gulimche-Dotumche-Resource-Pack/blob/main/Preview/preview1.png" width="400" height="400"/> <img src="https://github.com/BinRecycle/MCJE-Gulimche-Dotumche-Resource-Pack/blob/main/Preview/preview2.png" width="400" height="400"/> 
+
+<img src="https://github.com/BinRecycle/MCJE-Gulimche-Dotumche-Resource-Pack/blob/main/Preview/preview2.png" width="500" height="500"/>
 
 마인크래프트의 GNU Unifont를 굴림체 또는 돋움체로 변경합니다.
 알파벳의 자형은 두 폰트 모두 같으며 취향에 맞게 굴림체와 돋움체 중 하나를 택하여 적용하세요.
