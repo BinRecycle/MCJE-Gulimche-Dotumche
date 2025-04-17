@@ -21,7 +21,7 @@
                     ],
                     "from": "\u3001",
                     "to": "\u30FF",
-                    "left": 0,
+                    "left": 1,
                     "right": 15
                 },
                 {
@@ -34,7 +34,7 @@
                     ],
                     "from": "\u3200",
                     "to": "\u9FFF",
-                    "left": 0,
+                    "left": 1,
                     "right": 15
                 },
                 {
@@ -70,7 +70,7 @@
                     ],
                     "from": "\uF900",
                     "to": "\uFAFF",
-                    "left": 0,
+                    "left": 1,
                     "right": 15
                 },
                 {
@@ -79,7 +79,7 @@
                     ],
                     "from": "\uFF01",
                     "to": "\uFF5E",
-                    "left": 0,
+                    "left": 1,
                     "right": 15
                 }
             ]
