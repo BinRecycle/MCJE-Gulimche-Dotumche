@@ -5,9 +5,9 @@
             "fallback": "Font resource pack based on 'DotumChe'\nby BinRecycle"
         },
         "pack_format": 34,
-        "supported_formats": [34, 64],
+        "supported_formats": [34, 65],
         
         "min_format": 34,
-        "max_format": [65, 0]
+        "max_format": [65, 1]
     }
 }
