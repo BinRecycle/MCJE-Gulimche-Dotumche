@@ -8,6 +8,7 @@
         "supported_formats": [34, 65],
         
         "min_format": 34,
-        "max_format": [65, 1]
+        "max_format": [65, 2]
     }
+
 }
