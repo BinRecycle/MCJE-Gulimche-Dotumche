@@ -4,11 +4,14 @@
             "translate": "gulimche.pack_description",
             "fallback": "Font resource pack based on 'GulimChe'\nby BinRecycle"
         },
+
         "pack_format": 34,
-        "supported_formats": [34, 65],
+        "supported_formats": {
+            "min_inclusive": 34,
+            "max_inclusive": 64
+        },
         
         "min_format": 34,
-        "max_format": [65, 2]
+        "max_format": [69, 0]
     }
-
 }
