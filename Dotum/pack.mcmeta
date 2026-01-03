@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "description": "'돋움' 기반 폰트 리소스 팩 by BinRecycle",
+
+        "pack_format": 34,
+        "supported_formats": {
+            "min_inclusive": 34,
+            "max_inclusive": 64
+        },
+        
+        "min_format": 34,
+        "max_format": [75, 0]
+    }
+}
