@@ -2,7 +2,7 @@
     "pack": {
         "description": {
             "translate": "gulimche.pack_description",
-            "fallback": "Font resource pack based on 'GulimChe'\nby BinRecycle"
+            "fallback": "Font resource pack based on 'GulimChe' by BinRecycle"
         },
 
         "pack_format": 34,

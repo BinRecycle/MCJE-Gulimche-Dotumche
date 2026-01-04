@@ -2,7 +2,7 @@
     "pack": {
         "description": {
             "translate": "dotumche.pack_description",
-            "fallback": "Font resource pack based on 'DotumChe'\nby BinRecycle"
+            "fallback": "Font resource pack based on 'DotumChe' by BinRecycle"
         },
 
         "pack_format": 34,
