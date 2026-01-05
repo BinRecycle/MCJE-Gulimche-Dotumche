@@ -2,8 +2,19 @@
     "providers": [
         {
             "type": "unihex",
-            "hex_file": "minecraft:font/unifont_jp.zip",
+            "hex_file": "minecraft:font/shinonome16.zip",
             "size_overrides": [
+                {
+                    "__ranges": [
+                        "CJK Symbols and Punctuation",
+                        "Hiragana",
+                        "Katakana"
+                    ],
+                    "from": "\u3000",
+                    "to": "\u30FF",
+                    "left": 1,
+                    "right": 15
+                },
                 {
                     "__ranges": [
                         "Enclosed CJK Letters and Months",
@@ -14,7 +25,7 @@
                     ],
                     "from": "\u3200",
                     "to": "\u9FFF",
-                    "left": 0,
+                    "left": 1,
                     "right": 15
                 },
                 {
@@ -23,8 +34,17 @@
                     ],
                     "from": "\uF900",
                     "to": "\uFAFF",
-                    "left": 0,
+                    "left": 1,
                     "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Halfwidth and Fullwidth Forms"
+                    ],
+                    "from": "\uFF61",
+                    "to": "\uFF9F",
+                    "left": 0,
+                    "right": 6
                 }
             ],
             "filter": {
