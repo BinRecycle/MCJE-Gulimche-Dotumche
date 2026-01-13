@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "unihex",
-            "hex_file": "minecraft:font/shinonome16.zip",
+            "hex_file": "minecraft:font/shinonome.zip",
             "size_overrides": [
                 {
                     "__ranges": [
