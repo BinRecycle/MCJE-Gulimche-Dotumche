@@ -2,8 +2,19 @@
     "providers": [
         {
             "type": "unihex",
-            "hex_file": "minecraft:font/unifont_jp.zip",
+            "hex_file": "minecraft:font/shinonome.zip",
             "size_overrides": [
+                {
+                    "__ranges": [
+                        "CJK Symbols and Punctuation",
+                        "Hiragana",
+                        "Katakana"
+                    ],
+                    "from": "\u3000",
+                    "to": "\u30FF",
+                    "left": 1,
+                    "right": 15
+                },
                 {
                     "__ranges": [
                         "Enclosed CJK Letters and Months",
@@ -14,7 +25,7 @@
                     ],
                     "from": "\u3200",
                     "to": "\u9FFF",
-                    "left": 0,
+                    "left": 1,
                     "right": 15
                 },
                 {
@@ -23,8 +34,17 @@
                     ],
                     "from": "\uF900",
                     "to": "\uFAFF",
-                    "left": 0,
+                    "left": 1,
                     "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Halfwidth and Fullwidth Forms"
+                    ],
+                    "from": "\uFF61",
+                    "to": "\uFF9F",
+                    "left": 0,
+                    "right": 6
                 }
             ],
             "filter": {
@@ -35,6 +55,93 @@
             "type": "unihex",
             "hex_file": "minecraft:font/gulim.zip",
             "size_overrides": [
+                {
+                    "__ranges": [
+                        "CJK Symbols and Punctuation",
+                        "Hiragana",
+                        "Katakana"
+                    ],
+                    "from": "\u3001",
+                    "to": "\u30FF",
+                    "left": 1,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Enclosed CJK Letters and Months",
+                        "CJK Compatibility",
+                        "CJK Unified Ideographs Extension A",
+                        "Yijing Hexagram Symbols",
+                        "CJK Unified Ideographs"
+                    ],
+                    "from": "\u3200",
+                    "to": "\u9FFF",
+                    "left": 1,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Jamo"
+                    ],
+                    "from": "\u1100",
+                    "to": "\u11FF",
+                    "left": 1,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Compatibility Jamo"
+                    ],
+                    "from": "\u3130",
+                    "to": "\u318F",
+                    "left": 1,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Jamo Extended-A"
+                    ],
+                    "from": "\uA960",
+                    "to": "\uA97F",
+                    "left": 1,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Jamo Extended-B"
+                    ],
+                    "from": "\uD7B0",
+                    "to": "\uD7FF",
+                    "left": 1,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Syllables"
+                    ],
+                    "from": "\uAC00",
+                    "to": "\uD7AF",
+                    "left": 1,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "CJK Compatibility Ideographs"
+                    ],
+                    "from": "\uF900",
+                    "to": "\uFAFF",
+                    "left": 1,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Halfwidth and Fullwidth Forms"
+                    ],
+                    "from": "\uFF01",
+                    "to": "\uFF5E",
+                    "left": 1,
+                    "right": 15
+                }
             ]
         }
     ]
