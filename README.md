@@ -9,6 +9,8 @@
 
 폰트의 특성상 한글 글리프와 ASCII 문자에 한해 고정폭으로 제작되었습니다.
 
+<br>
+<br>
 
 ## 일본식 자형 지원
 <img src="https://github.com/BinRecycle/MCJE-Gulimche-Dotumche/blob/main/Preview/Preview_JP.png" width="500" height="500">
@@ -16,6 +18,8 @@
 일본어 전용 폰트를 추가했습니다.<br>
 언어... > 글꼴 설정... > '일본식 자형'을 '켜짐'으로 설정하면 적용됩니다.
 
+<br>
+<br>
 
 ## 폰트 출처
 [Google Font - Gulim](https://github.com/googlefonts/gulim)<br>
